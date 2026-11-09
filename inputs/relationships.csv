@@ -1,0 +1,299 @@
+id,source_person_id,target_person_id,type,year_or_period,description,source_ids,path_eligible,group_id
+E001,sam-altman,dario-amodei,executive_overlap,2016–2020,Altman was a leader at OpenAI while Amodei led research there before founding Anthropic.,S01 S03,False,
+E002,sam-altman,daniela-amodei,executive_overlap,before 2021,OpenAI leadership overlap prior to the Anthropic founding split.,S03,False,
+E003,ilya-sutskever,dario-amodei,joint_research_leadership,2016–2020,OpenAI expressly states Amodei and Sutskever co-led its research direction.,S65,True,
+E004,sam-altman,reid-hoffman,board_colleagues,2019–2023,Hoffman served on OpenAI’s board during Altman’s tenure as chief executive.,S36,True,
+E005,reid-hoffman,satya-nadella,board_relationship,2017 onward,Hoffman states that he has served on Microsoft’s board since 2017.,S36,True,
+E006,satya-nadella,mustafa-suleyman,appointed_or_hired,2024,Nadella publicly announced Suleyman’s appointment to lead Microsoft AI.,S07,True,
+E007,satya-nadella,kar-n-simonyan,appointed_or_hired,2024,Nadella publicly announced Simonyan’s move to the new Microsoft AI organization.,S07,True,
+E008,andrej-karpathy,fei-fei-li,phd_advisor,2011–2015,Karpathy names Li as his doctoral adviser at Stanford; pre-2015 connection explains a later career bridge.,S53,False,
+E009,andrej-karpathy,elon-musk,executive_overlap,2017–2022,Karpathy led Tesla AI while Musk led Tesla; this is a documented executive/technical hierarchy.,S53 S01,True,
+E010,dario-amodei,john-schulman,company_overlap,2024–2025,"Schulman joined Anthropic before moving to Thinking Machines, where Amodei was CEO.",S15 S02,False,
+E011,mira-murati,sam-altman,executive_colleagues,2018–2024,Murati was OpenAI CTO and interim CEO in Nov. 2023 during Altman’s leadership transition.,S17 S51,True,
+E012,mira-murati,greg-brockman,executive_colleagues,2018–2024,OpenAI technology and company leaders during the 2023 transition.,S51,True,
+E013,jakub-pachocki,ilya-sutskever,research_succession,2024,Pachocki was appointed as chief scientist following Sutskever’s departure.,S19,True,
+E014,mark-chen,jakub-pachocki,joint_research_program,2024,Both are named in leadership for the OpenAI o1 research effort.,S37,True,
+E015,mark-chen,wojciech-zaremba,joint_research_program,2024,Both were included in named leadership of the OpenAI o1 research effort.,S37,True,
+E016,jakub-pachocki,shengjia-zhao,joint_research_program,2024,Pachocki is listed among o1 leadership and Zhao among foundational research contributors.,S37,True,
+E017,mark-chen,shengjia-zhao,joint_research_program,2024,Both listed in OpenAI’s named o1 research contribution credits.,S37,True,
+E018,alexandr-wang,mark-zuckerberg,executive_hire,2025,Meta’s CEO placed Wang in charge of Meta Superintelligence Labs; Scale confirmed his move.,S09 S13,True,
+E019,alexandr-wang,nat-friedman,leadership_colleagues,2025,Meta explicitly identifies Wang and Friedman in complementary 2025 AI leadership roles.,S09,True,
+E020,alexandr-wang,shengjia-zhao,leadership_colleagues,2025,Meta explicitly names Wang as leader and Zhao as chief scientist of its AI effort.,S09,True,
+E021,nat-friedman,shengjia-zhao,leadership_colleagues,2025,Meta’s AI division announced both among its leadership team.,S09,False,
+E022,mark-zuckerberg,yann-lecun,executive_overlap,2015–2025,LeCun served as Meta’s chief AI scientist under Zuckerberg’s company leadership.,S09,False,
+E023,mark-zuckerberg,joelle-pineau,executive_overlap,2017–2025,Pineau led FAIR/Meta AI during the company’s Zuckerberg-led AI expansion.,S09 S10,False,
+E024,joelle-pineau,aidan-gomez,company_leadership,2025 onward,Cohere identifies Pineau as chief AI officer and Gomez as founder/CEO.,S10,True,
+E025,daniel-gross,nat-friedman,investment_partnership,2020s,Gross and Friedman invested together in AI companies through NFDG.,S36,False,
+E026,daniel-gross,alexandr-wang,company_overlap,2025,Gross joined Meta AI after SSI; Wang led the new Meta AI effort.,S09 S16,False,
+E027,arthur-mensch,demis-hassabis,lab_overlap,before 2023,Mensch worked at DeepMind before founding Mistral while Hassabis led the lab.,S08 S05,False,
+E028,guillaume-lample,yann-lecun,lab_overlap,before 2023,Lample researched at Meta before founding Mistral; LeCun was chief AI scientist.,S08,False,
+E029,timoth-e-lacroix,yann-lecun,lab_overlap,before 2023,Lacroix researched at Meta before founding Mistral; LeCun led FAIR’s research vision.,S08,False,
+E030,aravind-srinivas,sam-altman,company_overlap,before 2022,Srinivas previously worked at OpenAI before founding Perplexity.,S14,False,
+E031,denis-yarats,yann-lecun,lab_overlap,before 2022,"Yarats worked in Meta AI research, associated with the larger FAIR ecosystem.",S14,False,
+E032,mustafa-suleyman,demis-hassabis,deepmind_founders,2010–2015+,Both founded DeepMind before 2015 and remained important to the organization afterward.,S05 S07,False,
+E033,shane-legg,demis-hassabis,deepmind_founders,2010–2015+,Both were DeepMind founders before 2015 and remained influential afterward.,S05,False,
+E034,jeff-dean,demis-hassabis,lab_reorganization,2023,Google united Google Brain and DeepMind under one Google DeepMind organization in 2023.,S05,False,
+E035,sundar-pichai,demis-hassabis,executive_reporting,2023 onward,Google/Alphabet leadership structure includes Google DeepMind under Hassabis.,S05,False,
+E036,noam-shazeer,daniel-de-freitas,cofounder_and_return,2021–2024,Cofounded Character.AI and returned to Google in 2024.,S35,True,
+E037,andrej-karpathy,john-schulman,founding_colleagues,2015–2017,Both are listed as OpenAI founding researchers.,S01,True,
+E038,dario-amodei,daniela-amodei,cofounders,2021,Cofounded Anthropic and led the firm’s research and commercial functions.,S02,True,
+E039,timnit-gebru,margaret-mitchell,coled_research_team,2018–2020,The pair co-led Google’s Ethical AI research team.,S26 S27,True,
+E040,margaret-mitchell,cl-ment-delangue,executive_research_relationship,2021 onward,Mitchell joined Hugging Face as chief ethics scientist while Delangue led the company.,S27 S25,False,
+E041,yoshua-bengio,sam-altman,openai_launch_advisory,2015,OpenAI’s launch announcement listed Bengio among its scientific advisors.,S01,False,
+E042,dan-hendrycks,elon-musk,research_advisor,2020s,Center for AI Safety identifies Hendrycks as an xAI advisor.,S44,False,
+E043,dan-hendrycks,alexandr-wang,research_advisor,2020s,Center for AI Safety identifies Hendrycks as a Scale AI advisor.,S44,False,
+E044,timnit-gebru,joy-buolamwini,research_coauthor,2018,Coauthored the peer-reviewed Gender Shades research paper.,S40,True,
+E045,emily-m-bender,timnit-gebru,research_coauthor,2021,Coauthored On the Dangers of Stochastic Parrots.,S41,True,
+E046,daniel-gross,ilya-sutskever,cofounders,2024,Cofounded SSI with Daniel Levy.,S16,True,
+E047,gina-raimondo,elizabeth-kelly,appointed,2024,Raimondo publicly named Kelly as inaugural director of the U.S. AI Safety Institute.,S21,True,
+E048,gina-raimondo,elham-tabassi,appointed,2024,Raimondo publicly named Tabassi CTO of the U.S. AI Safety Institute.,S21,True,
+E049,elizabeth-kelly,elham-tabassi,government_team,2024,"Became director and CTO, respectively, in the institute’s founding leadership.",S21,True,
+E050,donald-trump,david-sacks,appointed,2024–2025,Trump publicly announced Sacks’s AI and crypto policy advisor appointment.,S57,True,
+E051,david-sacks,michael-kratsios,joint_policy_work,2025,Both are named in the White House release for the 2025 America’s AI Action Plan.,S22,True,
+E052,donald-trump,michael-kratsios,presidential_administration,2025,Kratsios led OSTP under Trump during the AI Action Plan launch.,S22,False,
+E053,joe-biden,gina-raimondo,executive_cabinet,2023–2024,Biden AI executive order led to Commerce/NIST AI-safety responsibilities under Secretary Raimondo.,S21,False,
+E054,yang-zhilin,tang-jie,academic_advisor,2010s,Tang was Yang’s university advisor in China before Yang founded Moonshot AI.,S58,False,
+E055,yang-zhilin,yann-lecun,research_coauthor,2010s–2020s,Biographical research reports Yang coauthored papers with LeCun.,S33,True,
+E056,yang-zhilin,yoshua-bengio,research_coauthor,2010s–2020s,Research reporting identifies Yang as a coauthor with Bengio.,S33,True,
+G01-sam-altman-greg-brockman,sam-altman,greg-brockman,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-sam-altman-ilya-sutskever,sam-altman,ilya-sutskever,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-sam-altman-wojciech-zaremba,sam-altman,wojciech-zaremba,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-sam-altman-john-schulman,sam-altman,john-schulman,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-sam-altman-andrej-karpathy,sam-altman,andrej-karpathy,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-sam-altman-elon-musk,sam-altman,elon-musk,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-greg-brockman-ilya-sutskever,greg-brockman,ilya-sutskever,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-greg-brockman-wojciech-zaremba,greg-brockman,wojciech-zaremba,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-greg-brockman-john-schulman,greg-brockman,john-schulman,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-greg-brockman-andrej-karpathy,greg-brockman,andrej-karpathy,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-greg-brockman-elon-musk,greg-brockman,elon-musk,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-ilya-sutskever-wojciech-zaremba,ilya-sutskever,wojciech-zaremba,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-ilya-sutskever-john-schulman,ilya-sutskever,john-schulman,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-ilya-sutskever-andrej-karpathy,ilya-sutskever,andrej-karpathy,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-ilya-sutskever-elon-musk,ilya-sutskever,elon-musk,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-wojciech-zaremba-john-schulman,wojciech-zaremba,john-schulman,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-wojciech-zaremba-andrej-karpathy,wojciech-zaremba,andrej-karpathy,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-wojciech-zaremba-elon-musk,wojciech-zaremba,elon-musk,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-john-schulman-andrej-karpathy,john-schulman,andrej-karpathy,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-john-schulman-elon-musk,john-schulman,elon-musk,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G01-andrej-karpathy-elon-musk,andrej-karpathy,elon-musk,shared_launch,2015–2018,Both participated in OpenAI 2015 launch team.,S01,True,G01
+G02-dario-amodei-daniela-amodei,dario-amodei,daniela-amodei,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-dario-amodei-jack-clark,dario-amodei,jack-clark,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-dario-amodei-chris-olah,dario-amodei,chris-olah,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-dario-amodei-jared-kaplan,dario-amodei,jared-kaplan,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-dario-amodei-sam-mccandlish,dario-amodei,sam-mccandlish,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-dario-amodei-tom-brown,dario-amodei,tom-brown,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-dario-amodei-ben-mann,dario-amodei,ben-mann,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-daniela-amodei-jack-clark,daniela-amodei,jack-clark,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-daniela-amodei-chris-olah,daniela-amodei,chris-olah,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-daniela-amodei-jared-kaplan,daniela-amodei,jared-kaplan,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-daniela-amodei-sam-mccandlish,daniela-amodei,sam-mccandlish,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-daniela-amodei-tom-brown,daniela-amodei,tom-brown,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-daniela-amodei-ben-mann,daniela-amodei,ben-mann,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jack-clark-chris-olah,jack-clark,chris-olah,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jack-clark-jared-kaplan,jack-clark,jared-kaplan,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jack-clark-sam-mccandlish,jack-clark,sam-mccandlish,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jack-clark-tom-brown,jack-clark,tom-brown,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jack-clark-ben-mann,jack-clark,ben-mann,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-chris-olah-jared-kaplan,chris-olah,jared-kaplan,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-chris-olah-sam-mccandlish,chris-olah,sam-mccandlish,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-chris-olah-tom-brown,chris-olah,tom-brown,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-chris-olah-ben-mann,chris-olah,ben-mann,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jared-kaplan-sam-mccandlish,jared-kaplan,sam-mccandlish,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jared-kaplan-tom-brown,jared-kaplan,tom-brown,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-jared-kaplan-ben-mann,jared-kaplan,ben-mann,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-sam-mccandlish-tom-brown,sam-mccandlish,tom-brown,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-sam-mccandlish-ben-mann,sam-mccandlish,ben-mann,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G02-tom-brown-ben-mann,tom-brown,ben-mann,cofounded,2021,Both participated in Anthropic 2021 founding team.,S03,True,G02
+G03-ashish-vaswani-noam-shazeer,ashish-vaswani,noam-shazeer,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-ashish-vaswani-niki-parmar,ashish-vaswani,niki-parmar,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-ashish-vaswani-jakob-uszkoreit,ashish-vaswani,jakob-uszkoreit,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-ashish-vaswani-llion-jones,ashish-vaswani,llion-jones,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-ashish-vaswani-aidan-gomez,ashish-vaswani,aidan-gomez,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-ashish-vaswani-lukasz-kaiser,ashish-vaswani,lukasz-kaiser,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-ashish-vaswani-illia-polosukhin,ashish-vaswani,illia-polosukhin,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-noam-shazeer-niki-parmar,noam-shazeer,niki-parmar,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-noam-shazeer-jakob-uszkoreit,noam-shazeer,jakob-uszkoreit,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-noam-shazeer-llion-jones,noam-shazeer,llion-jones,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-noam-shazeer-aidan-gomez,noam-shazeer,aidan-gomez,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-noam-shazeer-lukasz-kaiser,noam-shazeer,lukasz-kaiser,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-noam-shazeer-illia-polosukhin,noam-shazeer,illia-polosukhin,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-niki-parmar-jakob-uszkoreit,niki-parmar,jakob-uszkoreit,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-niki-parmar-llion-jones,niki-parmar,llion-jones,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-niki-parmar-aidan-gomez,niki-parmar,aidan-gomez,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-niki-parmar-lukasz-kaiser,niki-parmar,lukasz-kaiser,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-niki-parmar-illia-polosukhin,niki-parmar,illia-polosukhin,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-jakob-uszkoreit-llion-jones,jakob-uszkoreit,llion-jones,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-jakob-uszkoreit-aidan-gomez,jakob-uszkoreit,aidan-gomez,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-jakob-uszkoreit-lukasz-kaiser,jakob-uszkoreit,lukasz-kaiser,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-jakob-uszkoreit-illia-polosukhin,jakob-uszkoreit,illia-polosukhin,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-llion-jones-aidan-gomez,llion-jones,aidan-gomez,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-llion-jones-lukasz-kaiser,llion-jones,lukasz-kaiser,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-llion-jones-illia-polosukhin,llion-jones,illia-polosukhin,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-aidan-gomez-lukasz-kaiser,aidan-gomez,lukasz-kaiser,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-aidan-gomez-illia-polosukhin,aidan-gomez,illia-polosukhin,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G03-lukasz-kaiser-illia-polosukhin,lukasz-kaiser,illia-polosukhin,coauthored,2017,Both participated in 2017 Transformer paper.,S04,True,G03
+G04-arthur-mensch-guillaume-lample,arthur-mensch,guillaume-lample,cofounded,2023,Both participated in Mistral AI founding.,S08,True,G04
+G04-arthur-mensch-timoth-e-lacroix,arthur-mensch,timoth-e-lacroix,cofounded,2023,Both participated in Mistral AI founding.,S08,True,G04
+G04-guillaume-lample-timoth-e-lacroix,guillaume-lample,timoth-e-lacroix,cofounded,2023,Both participated in Mistral AI founding.,S08,True,G04
+G05-aidan-gomez-nick-frosst,aidan-gomez,nick-frosst,cofounded,2019,Both participated in Cohere founding.,S10 S55,True,G05
+G05-aidan-gomez-ivan-zhang,aidan-gomez,ivan-zhang,cofounded,2019,Both participated in Cohere founding.,S10 S55,True,G05
+G05-nick-frosst-ivan-zhang,nick-frosst,ivan-zhang,cofounded,2019,Both participated in Cohere founding.,S10 S55,True,G05
+G06-david-ha-llion-jones,david-ha,llion-jones,cofounded,2023,Both participated in Sakana AI founding.,S11,True,G06
+G06-david-ha-ren-ito,david-ha,ren-ito,cofounded,2023,Both participated in Sakana AI founding.,S11,True,G06
+G06-llion-jones-ren-ito,llion-jones,ren-ito,cofounded,2023,Both participated in Sakana AI founding.,S11,True,G06
+G07-fei-fei-li-justin-johnson,fei-fei-li,justin-johnson,cofounded,2024,Both participated in World Labs founding.,S12,True,G07
+G07-fei-fei-li-ben-mildenhall,fei-fei-li,ben-mildenhall,cofounded,2024,Both participated in World Labs founding.,S12,True,G07
+G07-fei-fei-li-christoph-lassner,fei-fei-li,christoph-lassner,cofounded,2024,Both participated in World Labs founding.,S12,True,G07
+G07-justin-johnson-ben-mildenhall,justin-johnson,ben-mildenhall,cofounded,2024,Both participated in World Labs founding.,S12,True,G07
+G07-justin-johnson-christoph-lassner,justin-johnson,christoph-lassner,cofounded,2024,Both participated in World Labs founding.,S12,True,G07
+G07-ben-mildenhall-christoph-lassner,ben-mildenhall,christoph-lassner,cofounded,2024,Both participated in World Labs founding.,S12,True,G07
+G08-aravind-srinivas-denis-yarats,aravind-srinivas,denis-yarats,cofounded,2022,Both participated in Perplexity founding.,S14,True,G08
+G08-aravind-srinivas-johnny-ho,aravind-srinivas,johnny-ho,cofounded,2022,Both participated in Perplexity founding.,S14,True,G08
+G08-aravind-srinivas-andy-konwinski,aravind-srinivas,andy-konwinski,cofounded,2022,Both participated in Perplexity founding.,S14,True,G08
+G08-denis-yarats-johnny-ho,denis-yarats,johnny-ho,cofounded,2022,Both participated in Perplexity founding.,S14,True,G08
+G08-denis-yarats-andy-konwinski,denis-yarats,andy-konwinski,cofounded,2022,Both participated in Perplexity founding.,S14,True,G08
+G08-johnny-ho-andy-konwinski,johnny-ho,andy-konwinski,cofounded,2022,Both participated in Perplexity founding.,S14,True,G08
+G09-mustafa-suleyman-kar-n-simonyan,mustafa-suleyman,kar-n-simonyan,cofounded,2022,Both participated in Inflection AI founding.,S07 S36,True,G09
+G09-mustafa-suleyman-reid-hoffman,mustafa-suleyman,reid-hoffman,cofounded,2022,Both participated in Inflection AI founding.,S07 S36,True,G09
+G09-kar-n-simonyan-reid-hoffman,kar-n-simonyan,reid-hoffman,cofounded,2022,Both participated in Inflection AI founding.,S07 S36,True,G09
+G10-ilya-sutskever-daniel-gross,ilya-sutskever,daniel-gross,cofounded,2024,Both participated in Safe Superintelligence (SSI) founding.,S16,True,G10
+G10-ilya-sutskever-daniel-levy,ilya-sutskever,daniel-levy,cofounded,2024,Both participated in Safe Superintelligence (SSI) founding.,S16,True,G10
+G10-daniel-gross-daniel-levy,daniel-gross,daniel-levy,cofounded,2024,Both participated in Safe Superintelligence (SSI) founding.,S16,True,G10
+G11-mira-murati-john-schulman,mira-murati,john-schulman,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-mira-murati-barret-zoph,mira-murati,barret-zoph,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-mira-murati-lilian-weng,mira-murati,lilian-weng,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-mira-murati-andrew-tulloch,mira-murati,andrew-tulloch,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-mira-murati-luke-metz,mira-murati,luke-metz,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-john-schulman-barret-zoph,john-schulman,barret-zoph,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-john-schulman-lilian-weng,john-schulman,lilian-weng,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-john-schulman-andrew-tulloch,john-schulman,andrew-tulloch,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-john-schulman-luke-metz,john-schulman,luke-metz,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-barret-zoph-lilian-weng,barret-zoph,lilian-weng,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-barret-zoph-andrew-tulloch,barret-zoph,andrew-tulloch,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-barret-zoph-luke-metz,barret-zoph,luke-metz,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-lilian-weng-andrew-tulloch,lilian-weng,andrew-tulloch,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-lilian-weng-luke-metz,lilian-weng,luke-metz,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G11-andrew-tulloch-luke-metz,andrew-tulloch,luke-metz,founding_team,2025,Both participated in Thinking Machines Lab founding team.,S15 S49,True,G11
+G12-noam-shazeer-daniel-de-freitas,noam-shazeer,daniel-de-freitas,cofounded,2021,Both participated in Character.AI cofounding.,S35,True,G12
+G13-ashish-vaswani-niki-parmar,ashish-vaswani,niki-parmar,cofounded,2023,Both participated in Essential AI cofounders.,S68,True,G13
+G14-david-luan-ashish-vaswani,david-luan,ashish-vaswani,cofounded,2022,Both participated in Adept AI founding collaboration.,S54,True,G14
+G14-david-luan-niki-parmar,david-luan,niki-parmar,cofounded,2022,Both participated in Adept AI founding collaboration.,S54,True,G14
+G14-ashish-vaswani-niki-parmar,ashish-vaswani,niki-parmar,cofounded,2022,Both participated in Adept AI founding collaboration.,S54,True,G14
+G15-cl-ment-delangue-julien-chaumond,cl-ment-delangue,julien-chaumond,cofounded,2016,Both participated in Hugging Face founding.,S25,True,G15
+G15-cl-ment-delangue-thomas-wolf,cl-ment-delangue,thomas-wolf,cofounded,2016,Both participated in Hugging Face founding.,S25,True,G15
+G15-julien-chaumond-thomas-wolf,julien-chaumond,thomas-wolf,cofounded,2016,Both participated in Hugging Face founding.,S25,True,G15
+G16-harrison-chase-ankush-gola,harrison-chase,ankush-gola,cofounded,2023,Both participated in LangChain company founding.,S30,True,G16
+G17-alexandr-wang-lucy-guo,alexandr-wang,lucy-guo,cofounded,2016,Both participated in Scale AI founding.,S67,True,G17
+G18-joy-buolamwini-timnit-gebru,joy-buolamwini,timnit-gebru,coauthored,2018,Both participated in 2018 Gender Shades paper.,S40,True,G18
+G19-emily-m-bender-timnit-gebru,emily-m-bender,timnit-gebru,coauthored,2021,Both participated in 2021 Stochastic Parrots paper.,S41,True,G19
+G19-emily-m-bender-margaret-mitchell,emily-m-bender,margaret-mitchell,coauthored,2021,Both participated in 2021 Stochastic Parrots paper.,S41,True,G19
+G19-timnit-gebru-margaret-mitchell,timnit-gebru,margaret-mitchell,coauthored,2021,Both participated in 2021 Stochastic Parrots paper.,S41,True,G19
+G20-demis-hassabis-john-jumper,demis-hassabis,john-jumper,research_collaboration,2018–2024,Both participated in AlphaFold research / 2024 Nobel.,S06 S47,True,G20
+G21-ilya-sutskever-adam-d-angelo,ilya-sutskever,adam-d-angelo,served_on_board_together,2023,Both participated in OpenAI board (before Nov. 2023 change).,S17,True,G21
+G21-ilya-sutskever-helen-toner,ilya-sutskever,helen-toner,served_on_board_together,2023,Both participated in OpenAI board (before Nov. 2023 change).,S17,True,G21
+G21-ilya-sutskever-tasha-mccauley,ilya-sutskever,tasha-mccauley,served_on_board_together,2023,Both participated in OpenAI board (before Nov. 2023 change).,S17,True,G21
+G21-adam-d-angelo-helen-toner,adam-d-angelo,helen-toner,served_on_board_together,2023,Both participated in OpenAI board (before Nov. 2023 change).,S17,True,G21
+G21-adam-d-angelo-tasha-mccauley,adam-d-angelo,tasha-mccauley,served_on_board_together,2023,Both participated in OpenAI board (before Nov. 2023 change).,S17,True,G21
+G21-helen-toner-tasha-mccauley,helen-toner,tasha-mccauley,served_on_board_together,2023,Both participated in OpenAI board (before Nov. 2023 change).,S17,True,G21
+G22-bret-taylor-adam-d-angelo,bret-taylor,adam-d-angelo,committee_colleagues,2024,Both participated in OpenAI safety committee (2024).,S24,True,G22
+G22-bret-taylor-nicole-seligman,bret-taylor,nicole-seligman,committee_colleagues,2024,Both participated in OpenAI safety committee (2024).,S24,True,G22
+G22-bret-taylor-sam-altman,bret-taylor,sam-altman,committee_colleagues,2024,Both participated in OpenAI safety committee (2024).,S24,True,G22
+G22-adam-d-angelo-nicole-seligman,adam-d-angelo,nicole-seligman,committee_colleagues,2024,Both participated in OpenAI safety committee (2024).,S24,True,G22
+G22-adam-d-angelo-sam-altman,adam-d-angelo,sam-altman,committee_colleagues,2024,Both participated in OpenAI safety committee (2024).,S24,True,G22
+G22-nicole-seligman-sam-altman,nicole-seligman,sam-altman,committee_colleagues,2024,Both participated in OpenAI safety committee (2024).,S24,True,G22
+G23-brando-benifei-drago-tudorache,brando-benifei,drago-tudorache,co_rapporteurs,2023–2024,Both participated in EU AI Act parliamentary negotiators.,S23,True,G23
+G24-gina-raimondo-elizabeth-kelly,gina-raimondo,elizabeth-kelly,government_team,2024,Both participated in U.S. AI Safety Institute leadership.,S21,True,G24
+G24-gina-raimondo-elham-tabassi,gina-raimondo,elham-tabassi,government_team,2024,Both participated in U.S. AI Safety Institute leadership.,S21,True,G24
+G24-elizabeth-kelly-elham-tabassi,elizabeth-kelly,elham-tabassi,government_team,2024,Both participated in U.S. AI Safety Institute leadership.,S21,True,G24
+G25-david-sacks-michael-kratsios,david-sacks,michael-kratsios,policy_collaboration,2025,Both participated in U.S. AI Action Plan (named policy leaders).,S22,False,G25
+G25-david-sacks-donald-trump,david-sacks,donald-trump,policy_collaboration,2025,Both participated in U.S. AI Action Plan (named policy leaders).,S22,False,G25
+G25-michael-kratsios-donald-trump,michael-kratsios,donald-trump,policy_collaboration,2025,Both participated in U.S. AI Action Plan (named policy leaders).,S22,False,G25
+G26-mark-zuckerberg-alexandr-wang,mark-zuckerberg,alexandr-wang,leadership_team,2025,Both participated in 2025 Meta Superintelligence Labs leaders.,S09,False,G26
+G26-mark-zuckerberg-nat-friedman,mark-zuckerberg,nat-friedman,leadership_team,2025,Both participated in 2025 Meta Superintelligence Labs leaders.,S09,False,G26
+G26-mark-zuckerberg-shengjia-zhao,mark-zuckerberg,shengjia-zhao,leadership_team,2025,Both participated in 2025 Meta Superintelligence Labs leaders.,S09,False,G26
+G26-alexandr-wang-nat-friedman,alexandr-wang,nat-friedman,leadership_team,2025,Both participated in 2025 Meta Superintelligence Labs leaders.,S09,False,G26
+G26-alexandr-wang-shengjia-zhao,alexandr-wang,shengjia-zhao,leadership_team,2025,Both participated in 2025 Meta Superintelligence Labs leaders.,S09,False,G26
+G26-nat-friedman-shengjia-zhao,nat-friedman,shengjia-zhao,leadership_team,2025,Both participated in 2025 Meta Superintelligence Labs leaders.,S09,False,G26
+G27-elon-musk-igor-babuschkin,elon-musk,igor-babuschkin,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-elon-musk-jimmy-ba,elon-musk,jimmy-ba,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-elon-musk-yuhuai-wu,elon-musk,yuhuai-wu,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-elon-musk-christian-szegedy,elon-musk,christian-szegedy,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-igor-babuschkin-jimmy-ba,igor-babuschkin,jimmy-ba,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-igor-babuschkin-yuhuai-wu,igor-babuschkin,yuhuai-wu,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-igor-babuschkin-christian-szegedy,igor-babuschkin,christian-szegedy,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-jimmy-ba-yuhuai-wu,jimmy-ba,yuhuai-wu,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-jimmy-ba-christian-szegedy,jimmy-ba,christian-szegedy,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G27-yuhuai-wu-christian-szegedy,yuhuai-wu,christian-szegedy,founding_team,2023,Both participated in Early xAI original team.,S34,True,G27
+G28-ilya-sutskever-dario-amodei,ilya-sutskever,dario-amodei,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-tom-brown,ilya-sutskever,tom-brown,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-ben-mann,ilya-sutskever,ben-mann,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-jared-kaplan,ilya-sutskever,jared-kaplan,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-sam-mccandlish,ilya-sutskever,sam-mccandlish,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-jack-clark,ilya-sutskever,jack-clark,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-amanda-askell,ilya-sutskever,amanda-askell,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-mark-chen,ilya-sutskever,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ilya-sutskever-alec-radford,ilya-sutskever,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-tom-brown,dario-amodei,tom-brown,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-ben-mann,dario-amodei,ben-mann,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-jared-kaplan,dario-amodei,jared-kaplan,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-sam-mccandlish,dario-amodei,sam-mccandlish,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-jack-clark,dario-amodei,jack-clark,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-amanda-askell,dario-amodei,amanda-askell,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-mark-chen,dario-amodei,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-dario-amodei-alec-radford,dario-amodei,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-tom-brown-ben-mann,tom-brown,ben-mann,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-tom-brown-jared-kaplan,tom-brown,jared-kaplan,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-tom-brown-sam-mccandlish,tom-brown,sam-mccandlish,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-tom-brown-jack-clark,tom-brown,jack-clark,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-tom-brown-amanda-askell,tom-brown,amanda-askell,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-tom-brown-mark-chen,tom-brown,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-tom-brown-alec-radford,tom-brown,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ben-mann-jared-kaplan,ben-mann,jared-kaplan,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ben-mann-sam-mccandlish,ben-mann,sam-mccandlish,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ben-mann-jack-clark,ben-mann,jack-clark,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ben-mann-amanda-askell,ben-mann,amanda-askell,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ben-mann-mark-chen,ben-mann,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-ben-mann-alec-radford,ben-mann,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jared-kaplan-sam-mccandlish,jared-kaplan,sam-mccandlish,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jared-kaplan-jack-clark,jared-kaplan,jack-clark,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jared-kaplan-amanda-askell,jared-kaplan,amanda-askell,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jared-kaplan-mark-chen,jared-kaplan,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jared-kaplan-alec-radford,jared-kaplan,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-sam-mccandlish-jack-clark,sam-mccandlish,jack-clark,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-sam-mccandlish-amanda-askell,sam-mccandlish,amanda-askell,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-sam-mccandlish-mark-chen,sam-mccandlish,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-sam-mccandlish-alec-radford,sam-mccandlish,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jack-clark-amanda-askell,jack-clark,amanda-askell,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jack-clark-mark-chen,jack-clark,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-jack-clark-alec-radford,jack-clark,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-amanda-askell-mark-chen,amanda-askell,mark-chen,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-amanda-askell-alec-radford,amanda-askell,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G28-mark-chen-alec-radford,mark-chen,alec-radford,coauthored,2020,Both participated in 2020 GPT-3 research paper — selected contributors.,S61,True,G28
+G29-dario-amodei-jared-kaplan,dario-amodei,jared-kaplan,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-dario-amodei-sam-mccandlish,dario-amodei,sam-mccandlish,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-dario-amodei-tom-brown,dario-amodei,tom-brown,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-dario-amodei-alec-radford,dario-amodei,alec-radford,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-jared-kaplan-sam-mccandlish,jared-kaplan,sam-mccandlish,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-jared-kaplan-tom-brown,jared-kaplan,tom-brown,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-jared-kaplan-alec-radford,jared-kaplan,alec-radford,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-sam-mccandlish-tom-brown,sam-mccandlish,tom-brown,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-sam-mccandlish-alec-radford,sam-mccandlish,alec-radford,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G29-tom-brown-alec-radford,tom-brown,alec-radford,coauthored,2020,Both participated in 2020 Scaling Laws paper — selected coauthors.,S62,True,G29
+G30-ilya-sutskever-demis-hassabis,ilya-sutskever,demis-hassabis,coauthored,2016,Both participated in 2016 AlphaGo Nature paper — selected authors.,S63,True,G30
+G30-ilya-sutskever-david-silver,ilya-sutskever,david-silver,coauthored,2016,Both participated in 2016 AlphaGo Nature paper — selected authors.,S63,True,G30
+G30-demis-hassabis-david-silver,demis-hassabis,david-silver,coauthored,2016,Both participated in 2016 AlphaGo Nature paper — selected authors.,S63,True,G30
+G31-demis-hassabis-david-silver,demis-hassabis,david-silver,coauthored,2017,Both participated in 2017 AlphaGo Zero Nature paper — selected authors.,S64,True,G31
+G31-demis-hassabis-kar-n-simonyan,demis-hassabis,kar-n-simonyan,coauthored,2017,Both participated in 2017 AlphaGo Zero Nature paper — selected authors.,S64,True,G31
+G31-david-silver-kar-n-simonyan,david-silver,kar-n-simonyan,coauthored,2017,Both participated in 2017 AlphaGo Zero Nature paper — selected authors.,S64,True,G31
+G32-demis-hassabis-david-silver,demis-hassabis,david-silver,coauthored,2015,Both participated in 2015 Deep Q-Network Nature paper — selected authors.,S66,True,G32
+G32-demis-hassabis-shane-legg,demis-hassabis,shane-legg,coauthored,2015,Both participated in 2015 Deep Q-Network Nature paper — selected authors.,S66,True,G32
+G32-david-silver-shane-legg,david-silver,shane-legg,coauthored,2015,Both participated in 2015 Deep Q-Network Nature paper — selected authors.,S66,True,G32
+G33-yann-lecun-yoshua-bengio,yann-lecun,yoshua-bengio,coauthored,2015,Both participated in 2015 Nature deep-learning review.,S69,True,G33
+G33-yann-lecun-geoffrey-hinton,yann-lecun,geoffrey-hinton,coauthored,2015,Both participated in 2015 Nature deep-learning review.,S69,True,G33
+G33-yoshua-bengio-geoffrey-hinton,yoshua-bengio,geoffrey-hinton,coauthored,2015,Both participated in 2015 Nature deep-learning review.,S69,True,G33
+G34-geoffrey-hinton-jeff-dean,geoffrey-hinton,jeff-dean,coauthored,2015,Both participated in 2015 Knowledge Distillation paper — selected authors.,S70,True,G34
+G35-geoffrey-hinton-nick-frosst,geoffrey-hinton,nick-frosst,coauthored,2017,Both participated in 2017 Capsule Networks paper — selected authors.,S71,True,G35
+G36-jimmy-ba-geoffrey-hinton,jimmy-ba,geoffrey-hinton,coauthored,2016,Both participated in 2016 Layer Normalization paper — selected authors.,S72,True,G36
+G37-noam-shazeer-geoffrey-hinton,noam-shazeer,geoffrey-hinton,coauthored,2017,Both participated in 2017 Sparsely-Gated Mixture of Experts paper — selected authors.,S73,True,G37
+G37-noam-shazeer-jeff-dean,noam-shazeer,jeff-dean,coauthored,2017,Both participated in 2017 Sparsely-Gated Mixture of Experts paper — selected authors.,S73,True,G37
+G37-geoffrey-hinton-jeff-dean,geoffrey-hinton,jeff-dean,coauthored,2017,Both participated in 2017 Sparsely-Gated Mixture of Experts paper — selected authors.,S73,True,G37
